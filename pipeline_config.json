@@ -1,0 +1,47 @@
+{
+  "data_directory": "./sar_data",
+  "area_of_interest": {
+    "name": "target_monitoring_area",
+    "coordinates": [
+      [
+        34.271328748121135,
+        31.367306403175277
+      ],
+      [
+        34.271328748121135,
+        31.308940787645426
+      ],
+      [
+        34.36415015532711,
+        31.308940787645426
+      ],
+      [
+        34.36415015532711,
+        31.367306403175277
+      ],
+      [
+        34.271328748121135,
+        31.367306403175277
+      ]
+    ]
+  },
+  "temporal_range": {
+    "days_back": 7,
+    "max_cloud_cover": 20
+  },
+  "sentinel_hub": {
+    "instance_id": "",
+    "client_id": "sh-09712a92-008f-4111-bf81-ab403318402b",
+    "client_secret": "T5oljVaT68YS12JONV3Egl8OAGkNVYOm",
+    "sh_base_url": "https://sh.dataspace.copernicus.eu",
+    "sh_token_url": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/protocol/openid-connect/token"
+  },
+  "asf": {
+    "download_directory": "./sar_data/asf",
+    "max_results": 100
+  },
+  "processing": {
+    "resolution": 10,
+    "bbox_size_km": 40
+  }
+}

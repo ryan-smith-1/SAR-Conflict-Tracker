@@ -1,0 +1,31 @@
+# Core SAR pipeline dependencies
+asf-search>=7.0.0
+sentinelhub>=3.10.0
+geopandas>=0.14.0
+shapely>=2.0.0
+aiofiles>=23.0.0
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+
+# SAR processing and change detection
+rasterio>=1.3.0
+scipy>=1.10.0
+scikit-image>=0.20.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+opencv-python>=4.8.0
+
+# Optional but recommended for operational use
+gdal>=3.6.0  # For advanced geospatial processing
+pyproj>=3.5.0  # For coordinate transformations
+pillow>=10.0.0  # For image processing
+tqdm>=4.65.0  # For progress bars
+
+# For SNAP-based processing (advanced)
+# snappy  # Requires manual SNAP installation
+
+# For authentication and security
+keyring>=24.0.0  # For credential storage
+cryptography>=41.0.0  # For secure credential handling
